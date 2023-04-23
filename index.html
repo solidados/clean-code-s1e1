@@ -10,7 +10,7 @@
   <title>Todo App</title>
 </head>
 
-<body>
+<body class="page">
   <header class="header">
     <img class="header__img" src="./eisenhower-matrix.jpg">
     <a class="header__link" href="https://goal-life.com/page/method/matrix-eisenhower">
@@ -22,13 +22,13 @@
     <p class="task">
       <label class="task__title" for="new-task">Add Item</label>
       <div class="task__container">
-        <input class="task__input new" id="new-task"  type="text">
+        <input class="task__input task__input-new" id="new-task" type="text">
         <button class="task__btn">Add</button>
       </div>
     </p>
 
     <h3 class="task__title">Todo</h3>
-    <ul class="task__list incomplete">
+    <ul class="task__list task__list-incomplete">
       <li class="task__item">
         <input class="task__chk" type="checkbox">
         <label class="task__output">Pay Bills</label>
@@ -50,7 +50,7 @@
     </ul>
 
     <h3 class="task__title">Completed</h3>
-    <ul class="task__list complete">
+    <ul class="task__list task__list-complete">
       <li class="task__item">
         <input class="task__chk" type="checkbox" checked>
         <label class="task__output">See the Doctor</label>
