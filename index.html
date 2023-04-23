@@ -18,50 +18,55 @@
     </a>
   </header>
 
-  <div class="main">
-    <p class="task">
-      <label class="task__title" for="new-task">Add Item</label>
+  <main class="main">
+    <section class="task">
+      <h3 class="task__title" for="new-task">Add Item</h3>
       <div class="task__container">
         <input class="task__input task__input-new" id="new-task" type="text">
         <button class="task__btn">Add</button>
       </div>
-    </p>
+    </section>
 
-    <h3 class="task__title">Todo</h3>
-    <ul class="task__list task__list-incomplete">
-      <li class="task__item">
-        <input class="task__chk" type="checkbox">
-        <label class="task__output">Pay Bills</label>
-        <input class="task__input" type="text">
-        <button class="task__btn task__btn-modify">Edit</button>
-        <button class="task__btn task__btn-delete">
-          <img class="task__btn-img" src="./remove.svg">
-        </button>
-      </li>
-      <li class="task__item modify">
-        <input class="task__chk" type="checkbox">
-        <label class="task__output">Go Shopping</label>
-        <input class="task__input" type="text" value="Go Shopping">
-        <button class="task__btn task__btn-modify">Save</button>
-        <button class="task__btn task__btn-delete">
-          <img class="task__btn-img" src="./remove.svg">
-        </button>
-      </li>
-    </ul>
+    <section class="task">
+      <h3 class="task__title">Todo</h3>
+      <ul class="task__list task__list-incomplete">
+        <li class="task__item">
+          <input class="task__chk" type="checkbox">
+          <label class="task__output">Pay Bills</label>
+          <input class="task__input" type="text">
+          <button class="task__btn task__btn-modify">Edit</button>
+          <button class="task__btn task__btn-delete">
+            <img class="task__btn-img" src="./remove.svg">
+          </button>
+        </li>
+        <li class="task__item modify">
+          <input class="task__chk" type="checkbox">
+          <label class="task__output">Go Shopping</label>
+          <input class="task__input" type="text" value="Go Shopping">
+          <button class="task__btn task__btn-modify">Save</button>
+          <button class="task__btn task__btn-delete">
+            <img class="task__btn-img" src="./remove.svg">
+          </button>
+        </li>
+      </ul>
+    </section>
 
-    <h3 class="task__title">Completed</h3>
-    <ul class="task__list task__list-complete">
-      <li class="task__item">
-        <input class="task__chk" type="checkbox" checked>
-        <label class="task__output">See the Doctor</label>
-        <input class="task__input" type="text">
-        <button class="task__btn task__btn-modify">Edit</button>
-        <button class="task__btn task__btn-delete">
-          <img class="task__btn-img" src="./remove.svg">
-        </button>
-      </li>
-    </ul>
-  </div>
+    <section class="task">
+      <h3 class="task__title">Completed</h3>
+      <ul class="task__list task__list-complete">
+        <li class="task__item">
+          <input class="task__chk" type="checkbox" checked>
+          <label class="task__output">See the Doctor</label>
+          <input class="task__input" type="text">
+          <button class="task__btn task__btn-modify">Edit</button>
+          <button class="task__btn task__btn-delete">
+            <img class="task__btn-img" src="./remove.svg">
+          </button>
+        </li>
+      </ul>
+    </section>
+
+  </main>
   <script src="app.js"></script>
 </body>
 
